@@ -1,8 +1,8 @@
 # Site
-name: "Memoirs"
-title: "Memoirs"
-description: "I will take you on the fabulous world of exploration. Travel, culture, lifestyle. Eat, Pray, Love!"
-logo: 'assets/images/logo.png'
+name: "SRE Brasil"
+title: "SRE Brasil"
+description: "Comunidade Brasileira de SRE"
+logo: 'assets/images/logo1.jpeg'
 favicon: 'assets/images/logo.png'
 baseurl: /jekyll-theme-memoirs
 google_analytics: 'UA-xxxxxxxx-1'
@@ -14,14 +14,14 @@ email: wowthemesnet@gmail.com
 
 # Authors
 authors:
-  sal:
-    name: Sal
-    display_name: Sal
-    gravatar: e56154546cf4be74e393c62d1ae9f9d4
-    email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net/donate/
-    twitter: https://twitter.com/wowthemesnet
-    description: "Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
+  tito:
+    name: Tito Garrido
+    display_name: Tito
+    gravatar: 14a4a90f8f13fca731ca0ae3e2815728
+    email: titogarrido@gmail.com
+    web: https://titosoft.github.io
+    twitter: https://twitter.com/titogarrido
+    description: "Solutions Architect, SysAdmin and Programmer."
   john:
     name: John
     display_name: John    
@@ -68,10 +68,10 @@ adsense-data-ad-client: "ca-pub-3412143450191416"
 adsense-data-ad-slot: "1363087678"
 
 # Lazy Images ("enabled" or "disabled")
-lazyimages: "disabled"
+lazyimages: "enabled"
 
 # Post Author Box ("enabled" or "disabled")
-authorbox: "disabled"
+authorbox: "enabled"
 
 # Sass
 sass:
