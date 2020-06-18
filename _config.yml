@@ -2,7 +2,7 @@
 name: "SRE Brasil"
 title: "SRE Brasil"
 description: "Comunidade Brasileira de SRE"
-logo: 'assets/images/logo1.jpeg'
+logo: 'assets/images/logo-full.png'
 favicon: 'assets/images/logo.png'
 baseurl: '/srebrasil2'
 google_analytics: 'UA-xxxxxxxx-1'
