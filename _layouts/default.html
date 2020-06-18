@@ -70,8 +70,9 @@ ga('send', 'pageview');
     ================================================== -->
    
     <!--<a class="navbar-brand" href="{{ site.baseurl }}/">
-        <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}"><span class="sitetag" style="color: darkgreen; font-family: monospace;"> {{site.title}}</span>
-    </a>  -->
+        <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
+    </a> -->
+    {% if page.url == '/' %}
    <div class="sitetag text-center" style="background-color: white; padding-bottom: 20px; padding-top: 20px;">
     <a  href="{{ site.baseurl }}/">
         <!--<img style="margin-bottom: 20px;" src="{{ site.baseurl }}/{{ site.logo }}" width="242" height="202" alt="{{ site.name }}">
@@ -83,12 +84,13 @@ ga('send', 'pageview');
 
     <!-- Site Tag
     ================================================== -->
-    {% if page.url == '/' %}
+    
         <p class="sitetag">
             {{ site.description }}
         </p>
-    {% endif %}
+    
 </div>
+{% endif %}
 
     <!-- Content
     ================================================== -->
